@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{77FA672A-7E2B-469C-B603-AF922D3FE589}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Denga.Pipeworks.HttpCommunication.Example", "Denga.Pipeworks.HttpCommunication.Example\Denga.Pipeworks.HttpCommunication.Example.csproj", "{F277A6B6-DC57-43C1-BF77-1EAA3AF7D7A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Denga.Pipeworks", "Denga.Pipeworks\Denga.Pipeworks.csproj", "{2550CED5-860F-498B-833A-F0926A1C01AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Denga.Pipeworks.Data", "Denga.Pipeworks.Data\Denga.Pipeworks.Data.csproj", "{BB5D98BA-261E-4FE7-A414-108A3B5BA347}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Denga.Pipeworks.HttpCommunication", "Denga.Pipeworks.HttpCommunication\Denga.Pipeworks.HttpCommunication.csproj", "{F431042C-61F2-4761-A9E8-0162260B8BD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Denga.Pipeworks.Views", "Denga.Pipeworks.Views\Denga.Pipeworks.Views.csproj", "{B7A676EE-BC07-48DB-AE56-4B5E9311103D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F277A6B6-DC57-43C1-BF77-1EAA3AF7D7A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F277A6B6-DC57-43C1-BF77-1EAA3AF7D7A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F277A6B6-DC57-43C1-BF77-1EAA3AF7D7A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F277A6B6-DC57-43C1-BF77-1EAA3AF7D7A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2550CED5-860F-498B-833A-F0926A1C01AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2550CED5-860F-498B-833A-F0926A1C01AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2550CED5-860F-498B-833A-F0926A1C01AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2550CED5-860F-498B-833A-F0926A1C01AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB5D98BA-261E-4FE7-A414-108A3B5BA347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5D98BA-261E-4FE7-A414-108A3B5BA347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5D98BA-261E-4FE7-A414-108A3B5BA347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5D98BA-261E-4FE7-A414-108A3B5BA347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F431042C-61F2-4761-A9E8-0162260B8BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F431042C-61F2-4761-A9E8-0162260B8BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F431042C-61F2-4761-A9E8-0162260B8BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F431042C-61F2-4761-A9E8-0162260B8BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A676EE-BC07-48DB-AE56-4B5E9311103D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A676EE-BC07-48DB-AE56-4B5E9311103D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A676EE-BC07-48DB-AE56-4B5E9311103D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A676EE-BC07-48DB-AE56-4B5E9311103D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F277A6B6-DC57-43C1-BF77-1EAA3AF7D7A6} = {77FA672A-7E2B-469C-B603-AF922D3FE589}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37E2FFFC-F419-4532-BACD-D8269E858181}
+	EndGlobalSection
+EndGlobal

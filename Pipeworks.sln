@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{77FA672A-7E2B-469C-B603-AF922D3FE589}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Denga.Pipeworks.HttpCommunication", "Denga.Pipeworks.HttpCommunication\Denga.Pipeworks.HttpCommunication.csproj", "{F431042C-61F2-4761-A9E8-0162260B8BD5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Denga.Pipeworks.Views", "Denga.Pipeworks.Views\Denga.Pipeworks.Views.csproj", "{B7A676EE-BC07-48DB-AE56-4B5E9311103D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denga.Pipeworks.SiteSettings", "Denga.Pipeworks.SiteSettings\Denga.Pipeworks.SiteSettings.csproj", "{2C0A66A8-A18B-48B7-B90C-69A71BC6A25C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{B7A676EE-BC07-48DB-AE56-4B5E9311103D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7A676EE-BC07-48DB-AE56-4B5E9311103D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7A676EE-BC07-48DB-AE56-4B5E9311103D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0A66A8-A18B-48B7-B90C-69A71BC6A25C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0A66A8-A18B-48B7-B90C-69A71BC6A25C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0A66A8-A18B-48B7-B90C-69A71BC6A25C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0A66A8-A18B-48B7-B90C-69A71BC6A25C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

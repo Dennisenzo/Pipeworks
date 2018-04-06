@@ -6,11 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Denga.Pipeworks.Data\Denga.Pipeworks.Data.csproj" />
-    <ProjectReference Include="..\Denga.Pipeworks.HttpCommunication\Denga.Pipeworks.HttpCommunication.csproj" />
-    <ProjectReference Include="..\Denga.Pipeworks.SiteSettings\Denga.Pipeworks.SiteSettings.csproj" />
-    <ProjectReference Include="..\Denga.Pipeworks.Views\Denga.Pipeworks.Views.csproj" />
-    <ProjectReference Include="..\Denga.Pipeworks\Denga.Pipeworks.csproj" />
+    <PackageReference Include="Denga.Pipeworks" Version="1.0.0" />
+    <PackageReference Include="Denga.Pipeworks.Data" Version="1.0.0" />
+    <PackageReference Include="Denga.Pipeworks.HttpCommunication" Version="1.0.0" />
+    <PackageReference Include="Denga.Pipeworks.SiteSettings" Version="1.0.0" />
+    <PackageReference Include="Denga.Pipeworks.Views" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Denga.Pipeworks.Data\Denga.Pipeworks.Data.csproj" />
-    <ProjectReference Include="..\Denga.Pipeworks.HttpCommunication.Example\Denga.Pipeworks.HttpCommunication.Example.csproj" />
     <ProjectReference Include="..\Denga.Pipeworks.HttpCommunication\Denga.Pipeworks.HttpCommunication.csproj" />
     <ProjectReference Include="..\Denga.Pipeworks.SiteSettings\Denga.Pipeworks.SiteSettings.csproj" />
     <ProjectReference Include="..\Denga.Pipeworks.Views\Denga.Pipeworks.Views.csproj" />

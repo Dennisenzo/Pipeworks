@@ -15,4 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Denga.Pipeworks.HttpCommunication\Denga.Pipeworks.HttpCommunication.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0" />
+  </ItemGroup> 
 </Project>

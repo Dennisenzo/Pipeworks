@@ -17,8 +17,7 @@ namespace Denga.Pipeworks
         {
             app.Use(request =>
             {
-               
-                return request;
+               return request;
             });
         }
         internal static void Apply(this IPlumber plumber, Action<IPlumber> plumberAction)

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Denga.Pipeworks.Data\Denga.Pipeworks.Data.csproj" />
+    <ProjectReference Include="..\Denga.Pipeworks.HttpCommunication.Example\Denga.Pipeworks.HttpCommunication.Example.csproj" />
+    <ProjectReference Include="..\Denga.Pipeworks.HttpCommunication\Denga.Pipeworks.HttpCommunication.csproj" />
+    <ProjectReference Include="..\Denga.Pipeworks.SiteSettings\Denga.Pipeworks.SiteSettings.csproj" />
+    <ProjectReference Include="..\Denga.Pipeworks.Views\Denga.Pipeworks.Views.csproj" />
+    <ProjectReference Include="..\Denga.Pipeworks\Denga.Pipeworks.csproj" />
+  </ItemGroup>
+
+</Project>

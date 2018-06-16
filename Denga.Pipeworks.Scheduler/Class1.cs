@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Denga.Pipeworks.SiteSettings
+namespace Denga.Pipeworks.Scheduler
 {
     public class Class1
     {

@@ -1,11 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Denga.Pipeworks.Data
 {
     public static class StartupExtensions
     {
-        public static void AddDatabase<T>(this IPlumber plumber, string connectionString, DatabaseType databaseType = DatabaseType.MsSql, string migrationsAssembly = null) where T:PipeworksContext
+        public static void AddDatabase<T>(this IPlumber plumber, string connectionString = null, DatabaseType databaseType = DatabaseType.MsSql, string migrationsAssembly = null) where T:PipeworksContext<T>
         {
             if (migrationsAssembly == null)
             {
@@ -18,7 +19,7 @@ namespace Denga.Pipeworks.Data
 
                     {
                         plumber.Services.AddDbContext<T>(options => options.UseSqlServer(
-                             connectionString,
+                             connectionString??plumber.ConnectionString,
                               b => b.MigrationsAssembly(migrationsAssembly)));
                         break;
                     }

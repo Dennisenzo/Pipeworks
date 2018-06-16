@@ -22,7 +22,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pipeworks", "Pipeworks\Pipeworks.csproj", "{3DCD9EE4-76C9-4AE1-A1AC-4CA8EAA0B253}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pipeworks", "Pipeworks\Pipeworks.csproj", "{3DCD9EE4-76C9-4AE1-A1AC-4CA8EAA0B253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denga.Pipeworks.Demo", "Denga.Pipeworks.Demo\Denga.Pipeworks.Demo.csproj", "{47B7DDAE-2A6C-4D1C-8DE6-96B2E5BF9C28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,12 +60,17 @@ Global
 		{3DCD9EE4-76C9-4AE1-A1AC-4CA8EAA0B253}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DCD9EE4-76C9-4AE1-A1AC-4CA8EAA0B253}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DCD9EE4-76C9-4AE1-A1AC-4CA8EAA0B253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B7DDAE-2A6C-4D1C-8DE6-96B2E5BF9C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B7DDAE-2A6C-4D1C-8DE6-96B2E5BF9C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B7DDAE-2A6C-4D1C-8DE6-96B2E5BF9C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B7DDAE-2A6C-4D1C-8DE6-96B2E5BF9C28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F277A6B6-DC57-43C1-BF77-1EAA3AF7D7A6} = {77FA672A-7E2B-469C-B603-AF922D3FE589}
+		{47B7DDAE-2A6C-4D1C-8DE6-96B2E5BF9C28} = {77FA672A-7E2B-469C-B603-AF922D3FE589}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37E2FFFC-F419-4532-BACD-D8269E858181}

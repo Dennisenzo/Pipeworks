@@ -10,6 +10,8 @@ namespace Denga.Pipeworks
         {
             IPlumber plumber = new DefaultPlumber(services);
 
+            plumber.ConnectionString = @"Data Source=DENNISMSI\SQLEXPRESS;Initial Catalog=pipeworks;Integrated Security=True";
+
             plumber.Apply(plumberAction);
 
         }
@@ -22,7 +24,7 @@ namespace Denga.Pipeworks
         }
         internal static void Apply(this IPlumber plumber, Action<IPlumber> plumberAction)
         {
-
+            plumberAction.Invoke(plumber);
         }
     }
 }

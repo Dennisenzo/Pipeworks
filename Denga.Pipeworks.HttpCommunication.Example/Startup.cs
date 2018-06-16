@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -17,9 +18,13 @@ namespace Denga.Pipeworks.HttpCommunication.Example
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1); 
             services.AddPipeworks(plumber =>
             {
+                plumber.AddViewsEngine(engineSettings =>
+                {
+                    engineSettings.AutoFindModelFactories = true;
+                });
                 plumber.AddHttpCommunication();
             });
         }
@@ -35,6 +40,7 @@ namespace Denga.Pipeworks.HttpCommunication.Example
             else
             {
                 app.UseExceptionHandler("/Error");
+                app.UseHsts();
             }
 
             app.UseStaticFiles();

@@ -7,5 +7,6 @@ namespace Denga.Pipeworks
         IServiceCollection Services { get; }
 
         string ConnectionString { get; set; }
+       
     }
 }
